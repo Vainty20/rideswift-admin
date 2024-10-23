@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: clamp(2.1875rem, 1.7969rem + 1.25vw, 2.5rem);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.5781rem + 1.75vw, 1.5625rem);
+}
